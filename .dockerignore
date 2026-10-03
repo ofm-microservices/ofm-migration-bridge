@@ -1,0 +1,31 @@
+# Git and local metadata
+.git/
+.gitignore
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Go build artifacts and caches
+.cache/
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Temporary and editor files
+*.tmp
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
